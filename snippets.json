@@ -1,0 +1,82 @@
+{
+    "CSS": {
+        "prefix": ["!css"],
+        "body": ["<link type=\"text/css\" rel=\"stylesheet\" href=\"$1\">"],
+        "description": "Imports a css file."
+    },
+    "JavaScript": {
+        "prefix": ["!js"],
+        "body": ["<script type=\"text/javascript\" src=\"$1\"></script>"],
+        "description": "Imports a JavaScript file."
+    },
+    "Style": {
+        "prefix": ["!style"],
+        "body": ["<style>",
+        "$1",
+        "</style>"],
+        "description": "Creates a <style> element."
+    },
+    "Script": {
+        "prefix": ["!style"],
+        "body": ["<script>",
+        "$1",
+        "</script>"],
+        "description": "Creates a <script> element."
+    },
+    "Doctype": {
+        "prefix": ["!d"],
+        "body": ["<!DOCTYPE html>"],
+        "description": "Defines an html file."
+    },
+    "Basic site": {
+        "prefix": ["!site"],
+        "body": ["<!DOCTYPE html>",
+        "<html>",
+        "<head>",
+        "<title>${1:Page title}</title>",
+        "</head>",
+        "<body>",
+        "<h1>${1:Main header}</h1>",
+        "</body>",
+        "</html>"],
+        "description": "Creates a basic website."
+    },
+    "HTML": {
+        "prefix": ["!h"],
+        "body": ["<html>",
+        "$1",
+        "</html>"],
+        "description": "Creates an <html> element."
+    },
+    "Body": {
+        "prefix": ["!b"],
+        "body": ["<body>",
+        "$1",
+        "</html>"],
+        "description": "Creates a <body> element."
+    },
+    "Header": {
+        "prefix": ["!he"],
+        "body": ["<header>",
+        "$1",
+        "</header>"],
+        "description": "Creates a <header> element."
+    },
+    "Footer": {
+        "prefix": ["!f"],
+        "body": ["<footer>",
+        "$1",
+        "</footer>"],
+        "description": "Creates a <footer> element."
+    },
+    "A link": {
+        "prefix": ["!a"],
+        "body": ["<a href=\"$1\"></a>"],
+        "description": "Creates an <a> element."
+    },
+    "Button": {
+        "prefix": ["!bu"],
+        "body": ["<button>$1</button>"],
+        "description": "Creates a <button> element."
+    }
+}
