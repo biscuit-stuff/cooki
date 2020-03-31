@@ -1,2 +1,2 @@
-# Cooki
-Contains all the stuff for Cooki
+# Fox HTML
+Contains the source code for Fox HTML by Cooki
